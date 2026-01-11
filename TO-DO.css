@@ -1,0 +1,19 @@
+.todo-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.todo-item.done {
+    color: green;
+}
+
+.todo-item.done .tick {
+    display: inline;
+}
+
+.tick {
+    display: none;
+    font-weight: bold;
+    color: green;
+}
