@@ -3,7 +3,6 @@
     align-items: center;
     gap: 10px;
 }
-
 .todo-item.done {
     color: green;
 }

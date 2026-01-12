@@ -31,7 +31,7 @@ function rander() {
     }
 
     document.querySelector('.js-todisplay').innerHTML = innercode;
-}
+};
 
 function markDone(index) {
     data[index].done = true;
